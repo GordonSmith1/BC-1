@@ -5,13 +5,20 @@
 }
 
 .column {
-    height: 500px;
+    height: 575px;
     width: 27%;
     float: left;
     margin: 0px 37px 0px 37px;
     text-align: justify;
     line-height: 1.5;
-    border-style: solid;
+    background-color: #003355;
+    border-radius: 20px;
+    
+}
+
+.p-text {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about-img {
@@ -21,11 +28,11 @@
 }
 
 .about-audio {
-   height: 190px; 
+   margin: 90px 23px 45px 23px;
 }
 
 .about-vid {
-    width: 98%;
+    width: 85%;
     height: 190px;
 }
 
