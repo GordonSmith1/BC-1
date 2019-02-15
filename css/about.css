@@ -1,0 +1,31 @@
+.container {
+    height: 1000px;
+    width: 100%;
+    margin-top: 95px;
+}
+
+.column {
+    height: 500px;
+    width: 27%;
+    float: left;
+    margin: 0px 37px 0px 37px;
+    text-align: justify;
+    line-height: 1.5;
+    border-style: solid;
+}
+
+.about-img {
+    width: 30%;
+    height: 190px;
+    margin-left: 90px;
+}
+
+.about-audio {
+   height: 190px; 
+}
+
+.about-vid {
+    width: 98%;
+    height: 190px;
+}
+

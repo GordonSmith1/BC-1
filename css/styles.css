@@ -1,0 +1,202 @@
+/*------Global------*/
+body {
+ margin: 0 auto;
+ background-color: #000044;
+ color: #bbbbbb;
+ font-family: "Courier New", Courier, monospace;
+}
+
+/*------NAV BAR------*/
+.nav-bar {
+ padding: 0;
+ height: 90px;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ background-color: #ffffff;
+ border-bottom: #000044 5px solid;
+}
+
+.logo {
+ height: 100px;
+ width: 100px;
+ 
+}
+
+.nav-list {
+ /*padding: 10px 20px 10px 0px;*/
+ margin-right: 50px;
+ margin-top: 35px;
+ float: right;
+}
+
+.list-item {
+ display: inline-block;
+ padding: 0px 10px 0px 10px;
+ /*background-color: #ffffff;*/ /*OR*/ background-color: inherit;
+ /*border-style: groove;*/
+ text-decoration: none;
+ 
+}
+
+.nav-word {
+ text-decoration: none;
+ /*color: #000000;*/ /*OR*/ color: #888888;
+}
+
+.list-item:hover {
+ /*Background-color: #000000;*/ /*OR*/ background-color: inherit;
+}
+
+
+.nav-word:hover {
+ /*color: #ffffff;*/ /*OR*/ color: #111111;
+ 
+}
+/*----Hero Section----*/
+.hero {
+ background-image: url(../img/showcase2.png);
+ height: 350px;
+ width: 1280px;
+ position: relative;
+ top: 0;
+ z-index: -1;
+ margin-top: 95px;
+}
+
+.hero-txt {
+ padding-top: 39px;
+}
+
+.h-txt {
+ background-color: #0eddee;
+ color: #000000;
+ margin-top: 20px;
+ width: 28%;
+ margin: auto;
+ box-shadow: -8px 5px #bbbbbb;
+}
+
+.p-txt {
+ color: #cccccc;
+ padding-top: 35px;
+ width: 50%;
+ margin: auto;
+}
+
+/*-----Main Body------*/
+.main {
+ width: 100%;
+ height: 475px;
+ /*border-style: solid;*/
+}
+
+.box {
+ width: 49%;
+ height: 470px;
+ float: left;
+ text-align: center;
+ background-color: #000066;
+ /*border-style: solid;*/
+}
+
+.main-img {
+ padding-top: 80px;
+ width: 50%;
+}
+/*-------Footer-------*/
+.footer {
+ background-color: #eeeeee;
+ width: 100%;
+ height: 90px;
+}
+
+.footer-column {
+ width: 31%;
+ height:35px;
+ display: inline-block;
+ margin-top: 20px;
+ color: #888888;
+}
+
+.submit {
+ margin-left: 30px;
+ border-style: none;
+ font-family: "Courier New", Courier, monospace;
+}
+
+.outline {
+ border-style: none;
+}
+
+.submit-outline {
+ border-style: none;
+}
+
+.submit-button {
+ color: #888888;
+ font-family: "Courier New", Courier, monospace;
+ font-size: 15px;
+}
+
+.submit-button:hover {
+ color: #111111;
+}
+
+.copy-right {
+ padding-left: 70px; 
+}
+
+.social-media, .copy-right {
+ text-align: center;
+}
+
+.social {
+ margin: 0px 10px 0px 10px; 
+}
+
+.face-button {
+ font-size: 2em;
+ border-style: none;
+}
+
+.fa-facebook-square {
+ color: #4267b2;
+}
+
+.insta-button {
+ font-size: 2em;
+ border-style: none;
+}
+
+.fa-instagram {
+ color: #231F20;
+}
+
+.snap-button {
+ font-size: 2em;
+ border-style: none;
+}
+
+.fa-snapchat-square {
+ color: #FFFC00;
+}
+/*------About Hero----*/
+.column-about {
+ width: 31%;
+ float: left;
+ border-style: solid;
+}
+
+.main-about {
+ width: 95%;
+ height: 300px;
+ display: inline-block;
+ margin-top: 180px;
+ border-style: solid;
+}
+
+.img-about {
+ width: 30%;
+ height: 150px;
+}

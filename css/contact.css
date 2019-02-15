@@ -1,0 +1,16 @@
+.container {
+    margin-top: 95px;
+    height: 600px;
+}
+
+.contact-column {
+    width: 48%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+
+.map {
+    width: 70%;
+}
+
