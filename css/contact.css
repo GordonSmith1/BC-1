@@ -1,16 +1,20 @@
 .container {
-    margin-top: 95px;
+    margin-top: 190px;
     height: 600px;
 }
 
 .contact-column {
-    width: 48%;
-    height: 500px;
+    width: 35%;
+    height: 400px;
     float: left;
     text-align: center;
+    background-color: #003355;
+    margin: 20px 95px 20px 95px;
+    border-radius: 20px;
 }
 
 .map {
     width: 70%;
+    margin: 50px 0px 0px 0px;
 }
 
